@@ -280,7 +280,7 @@ void getSceneInput()
                     cout << "Picked Orthographic view.\n";
                 }
                 cout << endl;
-                cout << "Enter number values to the follow prompts (floats):\n";
+                cout << "Enter number values to the following prompts (floats):\n";
                 promptFloat("left: ", &o_left);
                 promptFloat("right: ", &o_right);
                 promptFloat("bottom: ", &o_bottom);
