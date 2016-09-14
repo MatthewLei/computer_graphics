@@ -13,6 +13,9 @@ initShader.o: initShader.cpp
 simpleProgram.o: simpleProgram.cpp
 	g++ $(GCC_OPTIONS) -c simpleProgram.cpp
 
+run:
+	./prog streetlamp.obj.txt cow.obj.txt bunnyS.obj.txt
+
 clean:
 	rm initShader.o
 	rm simpleProgram.o
